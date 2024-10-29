@@ -27,6 +27,8 @@
 
         // Cria uma linha com o nome e a senha separados por ";"
         $linha = $nome . ';' . $senha . "\n";
+        // \n joga as linhas para baixo
+        // o fwrite fecha o arquivo 
 
         // Escreve a linha no arquivo
         fwrite($arquivo, $linha);

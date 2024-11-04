@@ -6,7 +6,9 @@
 </head>
 <body>
     <form method="post" action="" enctype="multipart/form-data">
+        <!-- nome -->
         <label for="imagem">Selecione uma imagem:</label>
+        <!-- entrada de imagem -->
         <input type="file" name="imagem" accept="image/*" required><br>
         <button type="submit">Upload</button>
     </form>
